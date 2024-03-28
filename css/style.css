@@ -1,0 +1,61 @@
+body{
+  background-color: 	#002244;
+}
+
+.container{
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.timeContainer{
+  background-color: #6495ED;
+  height: 200px;
+  width: 60%;
+  border-radius: 50px;
+}
+
+.currentTime{
+  display: block;
+  text-align: center;
+}
+
+.setAlarm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.alarmList {
+  padding: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6495ED;
+}
+
+button {
+  background-color: #002244;
+  color: white;
+}
+
+.clock-title{
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+  /* style of devices of screen size less than 768px */
+  @media only screen and (min-width: 600px) {
+    /* adding padding to container */
+    .container {
+      padding-block: 2rem;
+    }
+    .alarmList{
+        justify-content: center;
+        border-radius: 50px;
+        width: 450px;
+        min-height: auto;
+    }
+  }
