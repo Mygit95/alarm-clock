@@ -31,4 +31,8 @@ Alarm Notification:
 When the set alarm time is reached, an alert message will pop up on the screen.
 Click "OK" to acknowledge the alarm notification.
 
+**Access the hosted app here**
+
+https://mygit95.github.io/alarm-clock/
+
 
