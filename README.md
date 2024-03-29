@@ -1,4 +1,6 @@
-**Alarm Clock**
+**Alarm Clock**\
+
+This project is a simple alarm clock implemented using HTML, CSS, and JavaScript. Users can set an alarm and remove it as needed. When the set alarm time is reached, an alert message pops up on the screen.
 
 **Project Structure**
 
